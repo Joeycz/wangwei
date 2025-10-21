@@ -1,0 +1,44 @@
+# macOS 常用 .gitignore
+
+# Finder / metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Spotlight, Trash, and system folders
+.Spotlight-V100
+.Trashes
+.fseventsd/
+.DocumentRevisions-V100
+.VolumeIcon.icns
+.AppleDB/
+.AppleDesktop/
+.NetworkTrashFolder
+.apdisk
+
+# Temporary files
+.TemporaryItems/
+TemporaryItems/
+*.swp
+*~.nib
+
+# Crash reports and logs
+*.crash
+*.log
+
+# Editor/IDE folders commonly on macOS
+.vscode/
+.idea/
+*.iml
+
+# Xcode (如果你使用 Xcode)
+DerivedData/
+build/
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+
+# Prevent accidentally committing Finder tags
+*.icloud
